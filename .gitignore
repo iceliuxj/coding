@@ -1,0 +1,16 @@
+*.out
+*.test
+*.xml
+*.swp
+.idea/
+*.iml
+*.cov
+*.html
+/deps
+/libpostal
+/vendor
+.DS_Store
+env*
+*.pyc
+*.pickle
+*.un~
