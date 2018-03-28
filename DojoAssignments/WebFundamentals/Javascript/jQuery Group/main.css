@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 20px;
+    width: 970px;
+    height: 1200px;
+  
+}
+
+.red {
+    color: red;
+}

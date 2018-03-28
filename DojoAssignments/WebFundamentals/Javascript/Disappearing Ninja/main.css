@@ -1,0 +1,16 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+}
+
+#bt{
+    background-color: green;
+    color: white;
+    margin-left: 50px;
+    width: 60px;
+    height: 30px;
+}
