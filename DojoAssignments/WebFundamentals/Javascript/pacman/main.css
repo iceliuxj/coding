@@ -1,0 +1,63 @@
+* {
+ margin: 0;
+ padding: o;
+}
+
+.container {
+    width: 900px;
+    height: 700px;
+}
+
+.world {
+    width: 520px;
+    height: 520px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wall {
+width: 50px;
+height: 50px;
+background-color:rgb(89, 89, 94);
+display: inline-block;
+margin-bottom: -5px;
+}
+
+.ground {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(28, 35, 44);
+    display: inline-block;
+    margin-bottom: -6px;
+}
+
+img {
+    display: inline-block;
+    width: 35px;
+    margin-bottom: 9px;
+}
+
+#dino {
+    width:40px;
+    display: inline-block;
+    background-size: auto;
+    margin-bottom: 2px;
+}
+
+.count {
+    width: 200px;
+    height: 300px;
+    border: 5px solid rgb(58, 135, 169);
+    display: inline-block;
+    vertical-align: top;
+    padding:10px;
+}
+
+.count h2 {
+    color: rgb(21, 109, 72);
+}
+
+.count p{
+    font-size: 20px;
+    color: rgb(204, 170, 20);
+}

@@ -13,7 +13,7 @@ $(document).ready(function(){
     }
 
     $("img").click(function(){
-        var index = Math.floor(Math.random()*11);
+        var index = Math.floor(Math.random()*10);
         $(this).attr("src", imgUrlMap[index]);
     })
       

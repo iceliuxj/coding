@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 440px;
+    height: auto;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 600px;
+    height:auto;;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+tr th p {
+    text-align: center;
+}
+
+.adduser {
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.header {
+    font-size:25px;
+    font-weight: bold;
+    width:300px;
+    height: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(135, 131, 131);
+    margin-bottom: 5px;
+}
+
+.submitform {
+    width: 250px;
+    height: 100px;
+}
+
+.submitform p {
+    text-align: right;
+    margin-bottom:5px;
+}
+
+button {
+    margin-left: 180px;
+    width: 70px;
+    height:25px;
+    font-size:15px;
+}
