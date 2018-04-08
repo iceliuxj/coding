@@ -1,0 +1,21 @@
+.play {
+    width:200px;
+    height: 200px;
+    background-color: red;
+    line-height: 200px;
+    text-align: center;
+    }
+    .bingo {
+    width:200px;
+    height: 130px;
+    background-color: green;
+    padding-top:70px;
+    text-align: center;
+    font-size:20px;
+    }
+    .displayform {
+    display: block;
+    }
+    .hideform {
+    display: none;
+    }

@@ -1,0 +1,56 @@
+* {
+    margin: 10px;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+}
+
+.places {
+    display: inline-block;
+    text-align: center;
+}
+
+.farm {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.cave {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.house {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.casino {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+.activities {
+    width: 1000px;
+    height: 150px;
+   
+}
+.info {
+    width: 880px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left:10px;
+}
