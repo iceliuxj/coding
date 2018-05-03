@@ -1,0 +1,15 @@
+*{
+    margin:20px;
+}
+h1 {
+    color:red;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    border-radius: 30px;
+}
