@@ -20,9 +20,9 @@ const TaskSchema = new mongoo.Schema({
 
 const Tasks = mongoo.model('tasks', TaskSchema);
 
-// app.get('/', function(req,res){
-//     res.json({success:"success!"})
-// })
+app.get('/', function(req,res){
+    res.json({success:"success!"})
+})
 
 app.get('/tasks', function(req,res){
     Tasks.find({},function (err,data){
@@ -88,7 +88,7 @@ app.put('/tasks/:id', function(req,res){
 app.delete('/task/:id', function(){
     Tasks.deleteOne({_id:req.params.id},function(err,data){
         if (err){
-            console.log('eeeeeerrr');
+            console.log('err');
             res.json(err);
         }
         else{
