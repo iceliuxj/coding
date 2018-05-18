@@ -1,0 +1,53 @@
+body {
+    background-color:rgba(201, 196, 196, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.edit {
+  width: 100%;
+  display: inline-block;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.bt1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.bt1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bt2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(60, 139, 140);
+    border-radius: 5px;
+}
+
+.bt2:hover {
+    background-color: rgb(60, 139, 140);
+    color: white;
+}
