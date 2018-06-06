@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/bin/Debug/netcoreapp2.0/phone.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/bin/Debug/netcoreapp2.0/phone.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/bin/Debug/netcoreapp2.0/phone.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/bin/Debug/netcoreapp2.0/phone.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/bin/Debug/netcoreapp2.0/phone.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/phone/obj/Debug/netcoreapp2.0/phone.pdb
