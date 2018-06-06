@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb

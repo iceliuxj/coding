@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/bin/Debug/netcoreapp2.0/cards.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/bin/Debug/netcoreapp2.0/cards.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/bin/Debug/netcoreapp2.0/cards.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/bin/Debug/netcoreapp2.0/cards.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/bin/Debug/netcoreapp2.0/cards.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/cards/obj/Debug/netcoreapp2.0/cards.pdb

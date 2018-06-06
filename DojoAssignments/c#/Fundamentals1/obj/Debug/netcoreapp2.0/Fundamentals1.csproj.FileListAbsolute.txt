@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/bin/Debug/netcoreapp2.0/Fundamentals1.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/bin/Debug/netcoreapp2.0/Fundamentals1.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/bin/Debug/netcoreapp2.0/Fundamentals1.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/bin/Debug/netcoreapp2.0/Fundamentals1.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/bin/Debug/netcoreapp2.0/Fundamentals1.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Fundamentals1/obj/Debug/netcoreapp2.0/Fundamentals1.csprojResolveAssemblyReference.cache

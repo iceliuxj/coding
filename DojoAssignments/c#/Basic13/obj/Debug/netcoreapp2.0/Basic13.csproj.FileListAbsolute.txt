@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/bin/Debug/netcoreapp2.0/Basic13.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/bin/Debug/netcoreapp2.0/Basic13.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/bin/Debug/netcoreapp2.0/Basic13.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/bin/Debug/netcoreapp2.0/Basic13.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/bin/Debug/netcoreapp2.0/Basic13.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Basic13/obj/Debug/netcoreapp2.0/Basic13.pdb

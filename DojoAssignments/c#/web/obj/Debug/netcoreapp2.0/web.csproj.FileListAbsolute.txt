@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/bin/Debug/netcoreapp2.0/web.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/bin/Debug/netcoreapp2.0/web.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/bin/Debug/netcoreapp2.0/web.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/bin/Debug/netcoreapp2.0/web.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/bin/Debug/netcoreapp2.0/web.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/web/obj/Debug/netcoreapp2.0/web.pdb
