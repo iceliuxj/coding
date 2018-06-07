@@ -1,0 +1,28 @@
+* {
+    padding: 5px;
+    margin:5px;
+}
+h1 {
+    text-align: center;
+    color:rgb(64, 126, 201);
+}
+
+.head {
+    text-align: center;
+    width: 700px;
+}
+
+.container {
+    width: 800px;
+    vertical-align: top;
+}
+
+.left, .right {
+    width: 40%;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+}
+

@@ -1,0 +1,43 @@
+body {
+    width: 970px;
+    margin:10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.test {
+    width:900px;
+    height: 700px;;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.category {
+    width: 20%;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    margin: 10px;
+    padding: 30px;
+}
+
+span {
+    width:80%;
+    height: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.score {
+    width:80%;
+    height: 100px;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.hide {
+    display: none;
+}

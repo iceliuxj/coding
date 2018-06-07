@@ -1,0 +1,45 @@
+1. Create a new project:
+
+Django-admin startproject Dojo_ninjas
+
+2. Create a new app:
+
+Python manage.py startalp dojo_ninjas
+
+3. go to models.py add Dojo and Ninja
+
+class Dojo(models.Model):
+    name = models.CharField(max_length=45)
+    city = models.CharField(max_length=45)
+    state = models.CharField(max_length=45)
+    desc = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add = True)
+    updated_at = models.DateTimeField(auto_now = True)
+    def __repr__(self):
+        return "<Dojo object: {} {} {}".format(self.name, self.city,self.state)
+
+class Ninja(models.Model):
+    first_name = models.CharField(max_length=45)
+    last_name = models.CharField(max_length=45)
+    dojo = models.ForeignKey(Dojo, related_name = "ninjas")
+    def __repr__(self):
+        return "<Dojo object: {} {} {}".format(self.first_name, self.last_name,self.dojo)
+
+4. Create 3 dojos:
+Dojo.objects.create(name = "CodingDojo Silicon Valley", city = "Mountain View", state ="CA")
+Dojo.objects.create(name = "CodingDojo Silicon Seattle", city = "Seattle", state ="WA")
+Dojo.objects.create(name = "CodingDojo Silicon New York", city = "New York", state ="NY")
+
+5. delte dojos, such as:
+Dojo.objects.first().delete()
+
+6. Create 3 ninjas for each dojo location, such as:
+Ninja.objects.create(first_name = "Tim", last_name = "Greg", dojo = Dojo.objects.get(id=3))
+Ninja.objects.create(first_name = "Brent", last_name = "An", dojo = Dojo.objects.get(id=2))
+Ninja.objects.create(first_name = "Brent", last_name = "An", dojo = Dojo.objects.get(id=2))
+
+7. retrieve all ninjas that belong to the first Dojo
+- Dojo.objects.first().ninjas.all()
+
+8. retrieve all ninjas that belong to the last Dojo
+- Dojo.objects.last().ninjas.all()

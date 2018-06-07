@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <% if(animals){ %>
+        <% for (var x in animals) { %>
+            <a href="/mongooses/<%=animals[x]._id%>"><p>Name: <%= animals[x].name %> </p></a>
+            <a href="/mongooses/edit/<%=animals[x]._id%>"><button>EDIT</button></a>
+            <a href="/mongooses/destroy/<%=animals[x]._id%>"><button>Destroy</button></a>
+        <% } %>
+    <% } %>
+
+     <a href="/mongooses/new">Add new animal</a>
+
+</body>
+</html>

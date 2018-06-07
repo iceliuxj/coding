@@ -6,7 +6,7 @@ def index(request):
     return render(request, "index.html", {'courses': Course.objects.all()})
 
 def add(request):
-    errors= Course.objects.basic_validator(request.POST)
+    errors= forms.ValidationError(request.POST)
     if len(errors):
         for tag, message in errors.iteritems():
             error(request, message, extra_tags=tag)

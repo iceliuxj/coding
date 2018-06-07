@@ -27,6 +27,7 @@ namespace web
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
         }
 
         public Startup(IHostingEnvironment env)

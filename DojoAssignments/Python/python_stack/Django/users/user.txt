@@ -1,0 +1,39 @@
+1. Create a new model called 'User' with the information above.
+- Create a new project: Django-admin startproject users
+- Create a new app called user_login: python ../manage.py startapp user_login
+- go to user_login model.py file add a class called "User"
+
+2. Successfully create and run the migration files
+-  python manage.py makemigrations
+-  python manage.py makemigrations
+
+3. Using the shell...
+- run code "python manage.py shell"
+- run code " from apps.user_login.models import *"
+- also creates several users to User by the following code:
+  User.objects.create(first_name = "", last_name = "", email = "", age = "")
+
+4. Know how to retrieve all users.
+- User.objects.all() #retrieve all users
+- User.objects.all().values() # see all the values of users
+
+5. Know how to get the last user.
+- User.objects.last()
+
+6. Create a few records in the users
+- User.objects.create(first_name = "", last_name = "", email = "", age = "")
+
+7. Know how to get the first user.
+- User.objects.first()
+
+8. Know how to get the users sorted by their first name (order by first_name DESC)
+-User.objects.order_by("-first_name")
+
+9. Get the record of the user whose id is 3 and UPDATE the person's last_name to something else. Know how to do this directly in the console using .get and .save.
+- a=User.objects.get(id=3)
+- a.last_name = "York"
+- save()
+
+10. Know how to delete a record of a user whose id is 4 (use something like User.objects.get(id=2).delete...).
+- a=User.objects.get(id=4)
+- a.delete()

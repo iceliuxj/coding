@@ -1,0 +1,106 @@
+1. Create a new app called book_authors
+-python ../manage.py startapp book_authors
+
+2. Create two classes in models.py files
+class Book(models.Model):
+    name = models.CharField(max_length=255)
+    desc = models.TextField(max_length=1000)
+    created_at = models.DateTimeField(auto_now_add = True)
+    updated_at = models.DateTimeField(auto_now = True)
+    def __repr__(self):
+        return "<Book object: {} {}".format(self.name, self.desc)
+
+class Author(models.Model):
+    first_name = models.CharField(max_length=255)
+    last_name = models.CharField(max_length=255)
+    email = models.CharField(max_length=255)
+    note = models.TextField(default = "")
+    books = models.ManyToManyField(Book, related_name="authors")
+    created_at = models.DateTimeField(auto_now_add = True)
+    updated_at = models.DateTimeField(auto_now = True)
+    def __repr__(self):
+        return "<Dojo object: {} {} {}".format(self.first_name, self.last_name,self.email)
+
+3. Run migration file
+- python manage.py makemigrations
+- python manage.py migrate
+
+4.
+1) Create 5 books with the following names: C sharp, Java, Python, PHP, Ruby
+- Book.objects.create(name="C Sharp")
+- Book.objects.create(name="Java")
+- Book.objects.create(name="Python")
+- Book.objects.create(name="PHP")
+- Book.objects.create(name="Ruby")
+
+2)Create 5 different authors: Mike, Speros, John, Jadee, Jay
+- Author.objects.create(first_name="Mike")
+- Author.objects.create(first_name="Speros")
+- Author.objects.create(first_name="John")
+- Author.objects.create(first_name="Jadee")
+- Author.objects.create(first_name="Jay")
+
+5.Add a new field in the authors table called 'notes'.  Make this a TextField.  Successfully create and run the migration files.
+- note = models.TextField(default = "")
+Run migration: 
+- python manage.py makemigrations
+- python manage.py migrate
+
+6. 
+1)Change the name of the 5th book to C#
+>>> b = Book.objects.get(id=5)
+>>> b.name = "C#"
+>>> b.save ()
+
+2)Change the first_name of the 5th author to Ketul
+>>> a = Author.objects.get(id=5)
+>>> a.first_name = "Ketul"
+>>> a.save()
+
+3)Assign the first author to the first 2 books
+>>> author1 = Author.objects.get(id=1)
+>>> book1 = Book.objects.get(id=1)
+>>> book2 = Book.objects.get(id=2)
+>>> author_a.books.add(book1,book2)
+
+4)Assign the second author to the first 3 books
+>>> author2=Author.objects.get(id=2)
+>>> book_3 = Book.objects.get(id=3)
+>>> author2.books.add(book1,book2,book3)
+
+5)Assign the third author to the first 4 books
+>>> author3 = Author.objects.get(id=3)
+>>> book4 = Book.objects.get(id=4)
+>>> author3.books.add(book1,book2,book3,book4)
+
+6)Assign the fourth author to the first 5 books (or in other words, all the books
+>>> author4 = Author.object.get(id=4)
+>>> author4.books.add(book1,book2,book3,book4,book5)
+
+7.For the 3rd book, retrieve all the authors
+>>> Book.objects.get(id=3).authors
+
+8.For the 3rd book, remove the first author
+>>> author=Book.objects.get(id=3).authors.first()
+>>> author.delete()
+
+
+9.For the 2nd book, add the 5th author as one of the authors
+>>> author5= Author.objects.get(id=5)
+>>> book2 = Book.objects.get(id=2)
+>>> author5.books.add(book2)
+
+10.Find all the books that the 3rd author is part of
+>>> Author.objects.get(id=3).books.all()
+
+11. Find all the books that the 2nd author is part of
+
+>>> Author.objects.get(id=2).books.all()
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "basic_mongoose_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-as-promised": "^1.1.0",
+    "body-parser": "^1.18.2",
+    "complexity": "0.0.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.17",
+    "mongoose-unique-validator": "^2.0.1",
+    "mongoose-validator": "^2.0.2",
+    "password-validator": "^4.1.1",
+    "validator": "^10.1.0"
+  }
+}

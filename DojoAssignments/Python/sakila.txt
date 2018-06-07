@@ -1,0 +1,15 @@
+1. 
+select city.city_id, city.city as city, customer.first_name, customer.last_name, customer.email, address.address
+from customer
+join address on customer.address_id = address.address_id
+join city on city.city_id = address.city_id
+where address.city_id = 312
+
+2. 
+select film.film_id, film.title as title, film.description as description, film.release_year, film.rating, film.special_features, category.name
+from film
+join film_category on  film.film_id = film_category.film_id
+join category on film_category.category_id = category.category_id
+where category.name = "Comedy";
+
+3. 

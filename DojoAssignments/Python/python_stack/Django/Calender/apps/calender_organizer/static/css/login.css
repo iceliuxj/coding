@@ -1,0 +1,14 @@
+*{
+	text-align: center;
+}
+
+#login_wrapper{
+	display: inline-block;
+	width:900px;
+	height:700px;
+}
+
+a{
+	display: inline-block;
+	margin-top: 20%;
+}

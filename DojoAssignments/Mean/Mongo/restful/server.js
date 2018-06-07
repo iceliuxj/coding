@@ -98,6 +98,18 @@ app.delete('/task/:id', function(){
     })
 })
 
+// app.put('/tasks:id', function(res,req){
+//     Tasks.findOneAndUpdate({id: red.params.id}, req.body, function(errs,data){
+//         if (errs){
+//             console.log('here are errors');
+//             res.json(errs);
+//         } else{
+//             console.log("this is updated info");
+//             res.json(data);
+//         }
+//     })
+// })
+
 app.listen(8000, function(){
     console.log('here is the server');
 })

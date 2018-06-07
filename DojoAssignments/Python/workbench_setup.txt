@@ -1,0 +1,6 @@
+use twitter
+
+select * from users
+left join tweets
+on users.id = tweeets.user_id
+where users.id = 1;

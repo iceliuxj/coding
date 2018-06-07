@@ -1,0 +1,27 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+}
+
+table, th, tr, td{
+    width: 300px;
+    border: 1px solid black;  
+    border-collapse: collapse;  
+}
+
+button {
+    width: 50px;
+    border:1px solid orange;
+}

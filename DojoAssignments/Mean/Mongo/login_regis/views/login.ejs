@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+    <% if (messages.register_error) { %>
+        <% for (var x in messages.register_error) { %>
+            <p><%= x %></p>
+        <% } %>
+    <% } %>
+
+    <form action="/login" method="POST">
+        <p>Email:</p><input type="email" name="email">
+        <p>Password:</p><input type="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <a href="/register">Don't have an account? Click here!</a>
+</body>
+</html>

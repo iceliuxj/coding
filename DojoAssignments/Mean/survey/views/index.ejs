@@ -5,28 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type ="text/javascript" src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-    <form action="/result" method="POST">
-    <p>Your Name:</p> <input type="text" name="name">
+    <div class="msg"></div>
+    <form id="post_form">
+    <p>Your Name:</p> <input type="text" name="name" id="name">
     <p>Dojo Location:</p>
-    <select name="location" id="">
+    <select name="location" id="location">
         <option value="Mountain View">Mountain View</option>
         <option value="Chicago">Chicago</option>
         <option value="Seattle">Seattle</option>
     </select>
     
     <p>Favorite Language:</p>
-    <select name="language" id="">
+    <select name="language" id="language">
       <option value="Javascript">Javascript</option>
       <option value="Python">Python</option>
       <option value="C#">C#</option>
     </select>
     <p>Comment (optional):</p></br>
-    <textarea name="comment" id="" cols="30" rows="10"></textarea>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 </br>
     <input type="submit" value="Submit">
-
     </form>
+
+    <script>
+    $(document).ready (function(){
+        var socket = io.connect();
+        
+        socket.on('msg', function(message){
+            $('.msg').html(`<p> ${message.msg}</p>`)
+        });
+        
+        $('#post_form').submit(function(e){
+            e.preventDefault();
+            var user = {
+                name: $('#name').val(),
+                location: $('#location').val(),
+                language: $('#language').val(),
+                comment: $('#comment').val()
+            };
+            console.log(`this is from clients: ${user.name}`);
+
+            socket.emit('submit_info', user);
+
+        })
+
+    })
+    </script>
 </body>
 </html>

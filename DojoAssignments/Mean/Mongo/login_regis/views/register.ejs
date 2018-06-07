@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <style>
+    .alert {
+        color:rgb(218, 90, 21);
+    }
+    </style>
+</head>
+<body>
+    <% if (messages.register_error) { %>
+        <% for (var x of messages.register_error) { %>
+            <p class="alert"><%=x %></p>
+        <% } %>
+    <% } %>
+
+    <form action="/register" method="POST">
+        <p>Email:</p><input type="email" name="email">
+        <p>First name:</p><input type="text" name="first_name">
+        <p>Last name:</p><input type="text" name="last_name">
+        <p>Password:</p><input type="password" name="password">
+        <p>Birthday:</p><input type="date" name="birthday" placeholder="dd/mm/yy">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

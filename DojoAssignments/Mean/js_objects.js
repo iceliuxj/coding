@@ -1,22 +1,22 @@
 //challenge 1
-// var students = [
-//     {name: 'Remy', cohort: 'Jan'},
-//     {name: 'Genevieve', cohort: 'March'},
-//     {name: 'Chuck', cohort: 'Jan'},
-//     {name: 'Osmund', cohort: 'June'},
-//     {name: 'Nikki', cohort: 'June'},
-//     {name: 'Boris', cohort: 'June'}
-// ];
+var students = [
+    {name: 'Remy', cohort: 'Jan'},
+    {name: 'Genevieve', cohort: 'March'},
+    {name: 'Chuck', cohort: 'Jan'},
+    {name: 'Osmund', cohort: 'June'},
+    {name: 'Nikki', cohort: 'June'},
+    {name: 'Boris', cohort: 'June'}
+];
 
 
-// for (var i = 0; i < students.length; i ++){
-//     var res = "";
-//     for (var key in students[i]){
-//         str = key + ": " + students[i][key] + ", " ;
-//         res += str;
-//     }
-//     console.log(res);
-// }
+for (var i = 0; i < students.length; i ++){
+    var res = "";
+    for (var key in students[i]){
+        str = key + ": " + students[i][key] + ", " ;
+        res += str;
+    }
+    console.log(res);
+}
 
 //challenge 2
 var users = {
@@ -42,6 +42,11 @@ for (var key in users){
     }
     
 }
+
+
+
+
+
 
         
 
