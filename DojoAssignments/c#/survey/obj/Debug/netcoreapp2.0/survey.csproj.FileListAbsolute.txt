@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/bin/Debug/netcoreapp2.0/survey.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/bin/Debug/netcoreapp2.0/survey.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/bin/Debug/netcoreapp2.0/survey.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/bin/Debug/netcoreapp2.0/survey.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/bin/Debug/netcoreapp2.0/survey.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/survey/obj/Debug/netcoreapp2.0/survey.pdb
