@@ -14,8 +14,6 @@ namespace web.Controllers     //be sure to use your own project's namespace!
             return View("Index");
         }
 
-    public class Projects : Controller
-    {
         [HttpGet]
         [Route("projects")]
         public IActionResult Project()
@@ -23,16 +21,11 @@ namespace web.Controllers     //be sure to use your own project's namespace!
             return View("Projects");
         } 
 
-    }
-
-    public class Contact: Controller
-    {
         [HttpGet]
         [Route("contact")]
          public IActionResult Contacts()
         {
             return View("Contact");
         } 
-    }
     }
 }

@@ -3,6 +3,7 @@
     margin:5px;
 }
 h1 {
+    text-align: center;
     color:rgb(64, 126, 201);
 }
 
@@ -13,13 +14,6 @@ h1 {
 
 .container {
     width: 800px;
-    text-align: center;
+    vertical-align: top;
 }
 
-.projects {
-    border: 1px solid grey;
-    width:400px;
-    height: 200px;
-    overflow: auto;
-    display: inline-block;
-}
