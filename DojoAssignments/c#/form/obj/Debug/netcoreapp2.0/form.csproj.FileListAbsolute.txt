@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/bin/Debug/netcoreapp2.0/form.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/bin/Debug/netcoreapp2.0/form.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/bin/Debug/netcoreapp2.0/form.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/bin/Debug/netcoreapp2.0/form.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/bin/Debug/netcoreapp2.0/form.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/form/obj/Debug/netcoreapp2.0/form.pdb

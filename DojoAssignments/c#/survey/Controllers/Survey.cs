@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using survey.Models;
 
 namespace survey.Controllers     //be sure to use your own project's namespace!
 {
-    public class Home : Controller   //remember inheritance??
+    public class Home : Controller   
     {
         //for each route this controller is to handle:
         [HttpGet]       //type of request
@@ -13,17 +14,21 @@ namespace survey.Controllers     //be sure to use your own project's namespace!
             return View("Index");
         }
 
-        [HttpPost]       //type of request
-        [Route("")]
-            //associated route string (exclude the leading /)
-        public IActionResult Index(string name, string location, string language, string comment)
-        {
-            ViewBag.name = name;
-            ViewBag.location = location;
-            ViewBag.language = language;
-            ViewBag.comment = comment;
+        [HttpPost]  
+        [Route("ninja/create")]
+        public IActionResult Create(Ninja ninja)
+        //string name, string location, string language, string comment
+        {   
 
-            return View("Result");
+            if(ModelState.IsValid)
+            {
+                return View("Result", ninja);
+            }
+            else
+            {   
+                return View("Index");
+            }
+            
         }
 
         [HttpGet]       //type of request

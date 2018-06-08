@@ -7,26 +7,42 @@
     </head>
     <body>
         <div class="msg">
-            <form id="post_form" action="/" method="POST">
-            <p>Your Name:</p> <input type="text" name="name" id="name">
-            <p>Dojo Location:</p>
-            <select name="location" id="location">
+            @model Ninja
+            <form asp-action="Create" asp-controller="Home" method="post">
+                <span asp-validation-for="Name"></span>
+                <label asp-for="Name">
+                <p>Name:</p>
+                <input asp-for="Name">
+
+                <span asp-validation-for="Location"></span>
+                <label asp-for="Location">
+                <p>Dojo Location:</p>
+                <select asp-for="Location">
                 <option value="Mountain View">Mountain View</option>
                 <option value="Chicago">Chicago</option>
                 <option value="Seattle">Seattle</option>
-            </select>
-            
-            <p>Favorite Language:</p>
-            <select name="language" id="language">
-            <option value="Javascript">Javascript</option>
-            <option value="Python">Python</option>
-            <option value="C#">C#</option>
-            </select>
-            <p>Comment (optional):</p></br>
-            <textarea name="comment" id="comment" cols="60" rows="10"></textarea>
-        </br>
-            <input type="submit" value="Submit">
-            </form>
+                </select>
+                
+                <span asp-validation-for="Language"></span>
+                <label asp-for="Language">
+                <p>Favorite Language:</p>
+                <select asp-for="Language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                </select>
+
+                <span asp-validation-for="Comment"></span>
+                <label asp-for="Comment">
+                <p>Comment (optional):</p></br>
+                <textarea asp-for="Comment" cols="60" rows="10"></textarea>
+                </br>
+                <input type="submit" value="Submit">
+                </label>
+                </label>
+                </label>
+                </label>
+                </form>
         </div>
     </body>
 </html>
