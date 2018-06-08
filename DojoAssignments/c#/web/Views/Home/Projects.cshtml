@@ -15,9 +15,21 @@
             <h1>Here are some projects of mine</h1>
         
             <div class="projects">
-                <p>Let's take our previous Portfolio assignment, and integrate our ability to return Views and include static files such as CSS, JS, or IMGs. These views will be a home page that is mostly personal information, a projects page that lists various projects you have worked on, and a contact page with a form where people visiting your website can send you information. </p>
-                <p>Let's take our previous Portfolio assignment, and integrate our ability to return Views and include static files such as CSS, JS, or IMGs. These views will be a home page that is mostly personal information, a projects page that lists various projects you have worked on, and a contact page with a form where people visiting your website can send you information. </p>
-                <p>Let's take our previous Portfolio assignment, and integrate our ability to return Views and include static files such as CSS, JS, or IMGs. These views will be a home page that is mostly personal information, a projects page that lists various projects you have worked on, and a contact page with a form where people visiting your website can send you information. </p>
+
+                @{
+                    var StringList = new List <string>{
+                        "Let's take our previous Portfolio assignment, and integrate our ability to return Views and include static files such as CSS, JS, or IMGs. These views will be a home page that is mostly personal information, a projects page that lists various projects you have worked on, and a contact page with a form where people visiting your website can send you information.",
+                        "we're using ASP.NET Core MVC, we have access to the Razor View Engine. The .cshtml file extension we've been using for views actually designates Razor files. Razor allows us to write HTML just as before, but with the added ability to write C# code directly in our views. In addition, we can embed HTML in our embedded C#, and switch between the two as much as we like.",
+                        "We can write HTML in our C# block and it will be rendered as the C# evaluates when the page is loaded. Note that in order to use the variable inside our HTML we have to preface it with the @ symbol again. ",
+
+                    };
+                    
+                    foreach(var word in StringList)
+                    {
+                        <p>@word</p>
+                    }
+                }
+                
             </div>
 
         </div>
