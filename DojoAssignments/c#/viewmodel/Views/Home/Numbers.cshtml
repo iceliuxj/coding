@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Numbers";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Please see numbers below:</p>
+
+<div>
+    @{
+        var arr = new []{1,2,3,10,4.3,5};
+        foreach(var num in arr)
+        {
+            <p>@num</p>
+        }
+    }
+</div>
+
