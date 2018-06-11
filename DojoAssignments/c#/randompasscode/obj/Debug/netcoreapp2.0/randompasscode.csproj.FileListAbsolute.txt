@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/bin/Debug/netcoreapp2.0/randompasscode.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/bin/Debug/netcoreapp2.0/randompasscode.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/bin/Debug/netcoreapp2.0/randompasscode.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/bin/Debug/netcoreapp2.0/randompasscode.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/bin/Debug/netcoreapp2.0/randompasscode.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/randompasscode/obj/Debug/netcoreapp2.0/randompasscode.pdb
