@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.pdb
