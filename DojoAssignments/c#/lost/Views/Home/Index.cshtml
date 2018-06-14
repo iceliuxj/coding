@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lost</title>
+</head>
+<body>
+    <h1>Lost in the Woods</h1>
+    <div>
+        <table>
+            <th>Trail Name</th>
+            <th>Trail Length</th>
+            <th>Elevation Change</th>
+
+            @foreach (var trail in @ViewBag.all)
+            {
+                <tr>
+                    <td>@trail.name</td>
+                    <td>@trail.length</td>
+                    <td>@trail.change</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <a href="/add"><Button>Add a new Trail</Button></a>
+</body>
+</html>

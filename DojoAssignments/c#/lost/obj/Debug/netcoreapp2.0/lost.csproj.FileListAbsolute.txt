@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/bin/Debug/netcoreapp2.0/lost.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/bin/Debug/netcoreapp2.0/lost.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/bin/Debug/netcoreapp2.0/lost.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/bin/Debug/netcoreapp2.0/lost.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/bin/Debug/netcoreapp2.0/lost.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/lost/obj/Debug/netcoreapp2.0/lost.pdb

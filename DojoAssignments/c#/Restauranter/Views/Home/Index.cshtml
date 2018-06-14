@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Write a new Review</h1>
+
+<div class="msg">
+    @model Review
+    <form asp-action="Add" asp-controller="Home" method="post">
+        <span asp-validation-for="uname"></span>
+        <label asp-for="uname">
+        <p>Reviewer Name:</p>
+        <input asp-for="uname"><br>
+
+        <span asp-validation-for="rname"></span>
+        <label asp-for="rname">
+        <p>Restaurant Name:</p>
+        <input asp-for="rname"><br>
+
+        <span asp-validation-for="comment"></span>
+        <label asp-for="comment">
+        <p>Review:</p><br>
+        <textarea asp-for="comment" cols="60" rows="10"></textarea>
+        <br>
+        
+        <span asp-validation-for="date"></span>
+        <label asp-for="date">Date of visit:</label>
+
+        <!-- <p>Date of visit:</p> -->
+        <input asp-for="date" type="date"><br>
+   
+        <span asp-validation-for="rating"></span>
+        <label asp-for="rating">
+        <p>Stars:</p>
+        <select asp-for="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <input type="submit" value="Submit">
+
+    </label>
+    </label>
+    </label>
+    </label>
+    </label>
+    </form>
+</div>
+
+       

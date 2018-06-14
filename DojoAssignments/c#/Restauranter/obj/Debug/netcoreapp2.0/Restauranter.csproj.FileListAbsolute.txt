@@ -1,0 +1,11 @@
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.deps.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.runtimeconfig.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.runtimeconfig.dev.json
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.pdb
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.csprojResolveAssemblyReference.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.csproj.CoreCompileInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.AssemblyInfoInputs.cache
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.AssemblyInfo.cs
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.dll
+/Users/xiaojingliu/work/coding/DojoAssignments/c#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.pdb
