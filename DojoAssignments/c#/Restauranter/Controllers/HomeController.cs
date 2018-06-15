@@ -16,16 +16,12 @@ namespace Restauranter.Controllers
         public HomeController(reviewContext review){
             _context = review;
         }
+
         public IActionResult Index()
         {
             return View();
         }
 
-        
-
-
-        // [HttpPost]
-        // [Route("add")]
         public IActionResult Add(Review review)
         {
             if(ModelState.IsValid)
@@ -47,9 +43,11 @@ namespace Restauranter.Controllers
             ViewBag.all = AllReviews;
             return View();
         }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
     }
 }
