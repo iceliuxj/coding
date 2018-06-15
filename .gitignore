@@ -14,4 +14,8 @@ env*
 *.pyc
 *.pickle
 *.un~
+appsettings.json
+bin/
+obj/
+Bin/
 /flaskEnv
