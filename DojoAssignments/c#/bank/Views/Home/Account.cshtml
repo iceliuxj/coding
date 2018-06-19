@@ -1,0 +1,28 @@
+﻿@using bank.Models
+@model Account 
+
+<h2>Welcome @ViewBag.user.Firstname</h2>
+
+<h3>Your balance: @ViewBag.user.Balance</h3>
+
+<p style="color:rgb(201, 15, 15)">@TempData["error"]</p>
+<div>  
+    <form asp-action="Transaction" asp-controller="Home" method="POST">
+        <label for="Amount">Amount: <input asp-for="Amount"></label>
+        <input type="submit" type="Submit">
+    </form>
+
+    <table style="text-align: center;">
+        <tr>
+            <th>Amount</th>
+            <th>Date</th>
+        </tr>
+        @foreach(var x in @ViewBag.all){
+            <tr>
+                <td> $ @x.Amount</td>
+                <td> @x.Created_at</td>
+            </tr>
+        }
+    </table>
+
+</div>

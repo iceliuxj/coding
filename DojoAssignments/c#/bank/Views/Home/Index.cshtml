@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <hr>
+
+    <div class="regis">
+        @using bank.Models
+        @model User
+        <form asp-action="LogReg" asp-controller="Home" method="post">
+                <span asp-validation-for="Firstname"></span>
+                <label asp-for="Firstname">First Name:</label>
+                <input asp-for="Firstname"><br>
+    
+                <span asp-validation-for="Lastname"></span>
+                <label asp-for="Lastname">Last Name:</label>
+                <input asp-for="Lastname"><br>
+    
+                <span asp-validation-for="Email"></span>
+                <label asp-for="Email">Email:</label>
+                <input asp-for="Email">
+                @ViewBag.error_message1
+                <br>
+    
+                <span asp-validation-for="Password"></span>
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" type="password" name="Password"><br>
+    
+                <label>Confirm Password:</label>
+                <input type="password" name="Password_c">
+                @ViewBag.error_message2
+                <br>
+
+                <input type="submit" value="Register">
+
+                <a href="/login">Already Registered?</a>
+            </form>
+    </div>
+</body>
+</html>
+
+
+
+</div>

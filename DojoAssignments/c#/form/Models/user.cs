@@ -14,6 +14,7 @@ namespace form.Models
         public string Lastname {get;set;}
 
         [Required]
+        [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
         public int Age {get;set;}
 
         [Required]
